@@ -9,6 +9,15 @@
     <groupId>com.example</groupId>
     <artifactId>hello-jenkins</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/rinas-ck/maven-test1</url>
+        </repository>
+    </distributionManagement>
+
     <packaging>jar</packaging>
 
     <name>Hello Jenkins</name>
